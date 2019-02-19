@@ -1,5 +1,14 @@
-// Change the value of the message variable to change the text on screen
-message = 'Hello World';
+// Color variables:
+red = [0, 100, 63];
+orange = [40, 100, 60];
+green = [75, 100, 40];
+blue = [196, 77, 55];
+purple = [280, 50, 60];
 
-drawName(message);
+// Letters in the message will cycle through these colors:
+letterColors = [red, orange, green, blue, purple];
+
+message = 'Multiple colors!';
+
+drawName(message, letterColors);
 bounceBubbles();
