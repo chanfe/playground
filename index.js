@@ -10,7 +10,7 @@ letterColors = [red, orange, green, blue, purple];
 mouseResponseThreshold = 50;
 
 // This variable controls how strongly the dots will try to return to their starting position
-friction = 0.8;
+friction = 0.5;
 
 // This variable controls how much the dots will rotate when interacting
 rotationForce = 0.1;
